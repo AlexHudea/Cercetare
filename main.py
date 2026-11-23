@@ -191,7 +191,6 @@ def evaluate_dataset(dataset_name, dataset_type, img_dir, ann_dir, yolo_model, r
     return summary
 
 if __name__ == "__main__":
-    # CONFIGURARE CĂI (Actualizează calea pentru Cityscapes unde îl descarci)
     BASE_DAWN = "C:/Users/hudea/UBB/Anu3/Sem1/Proiect_cerce/DAWN"
     CITY_IMG = "C:/Users/hudea/UBB/Anu3/Sem1/Proiect_cerce/Cityscrapes/leftImg8bit_trainvaltest/leftImg8bit/val"
     CITY_ANN = "C:/Users/hudea/UBB/Anu3/Sem1/Proiect_cerce/Cityscrapes/gtFine_trainvaltest/gtFine/val"
